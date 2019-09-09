@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-rendering: optimizeLegibility !important;
+    background: #F2F2F2;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+
+header{
+    width: 100%;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+header nav{
+    display: flex;
+    background: #4A90E2;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img{
+    width: 120.92px;
+    height: 23.93px;
+    margin-left: 30px;
+}
+
+header nav span{
+    width: 100px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    margin-right: 77px;
+}
+
+
+/* Estilização do componente PostList */
+
+
+
+.PostList{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; 
+    align-items: center;
+}
+
+/* Estilização do componente PostUSer */
+
+.box-conteiner{
+    margin-bottom: 20PX;
+    width: 700px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;  
+}
+.box-conteiner hr{
+    margin: 20px 20px;
+    background:#EEEEEE;
+}
+
+.box-conteiner .box-user{
+    display: flex;
+    
+}
+
+.box-conteiner .box-user img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.box-user .user-informations{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-user .user-informations .name{
+    font-size: 14px;
+    line-height: 14px;
+    color: #4A4A4A;
+}
+
+.box-user .user-informations .data{
+    margin-top: 3px;
+    font-size: 11px;
+    line-height: 11px;
+    color: #9A9A9A;
+}
+
+.box-conteiner .box-post{
+    font-size: 14px;
+    line-height: 22px;
+    color: #3E3E3E;
+    margin-top: 15px;
+}
+
+/* Estilização do componente PostCommets */
+
+.comments{
+    margin: 0;
+    padding: 0; 
+}
+
+.box-comment{
+    display: flex;
+    justify-content: space-around; 
+    width: 660px;
+    margin-bottom: 10px;
+}
+
+.box-comment img{
+    width: 28px;
+    height: 28px;
+    border-radius: 16px;
+    margin-right: 10px;
+    
+}
+
+.box-comment .content{
+    width: 622px;
+    height: auto;
+    background: #EEEEEE;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    border-left: 10px;
+    
+}
+
+.box-comment .content span{
+    width: 592px;
+    font-size: 13px;
+    line-height: 20px;
+}
